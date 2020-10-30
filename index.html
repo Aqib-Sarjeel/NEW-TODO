@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>vanilla javaScript app</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="display-4 text-center">weight converter</h1>
+          <form>
+            <div class="form-group">
+              <input
+                id="lbsInput"
+                type="number"
+                class="form-control form-control-lg"
+                placeholder="enter in pounds..."
+              />
+            </div>
+          </form>
+          <div id="output">
+              <div class="card bg-primary mb-2">
+                  <div class="card-block">
+                      <h4 class="ml-3">Grams:</h4>
+                      <div class="ml-3" id="gramsoutput">
+
+                      </div>
+                  </div>
+              </div>
+              <div class="card bg-success mb-2">
+                <div class="card-block">
+                    <h4 class="ml-3">Kilograms:</h4>
+                    <div class="ml-3" id="kgoutput">
+                        
+                    </div>
+                </div>
+            </div><div class="card bg-danger mb-2">
+                <div class="card-block">
+                    <h4 class="ml-3">Ounce:</h4>
+                    <div  class="ml-3"id="ounceoutput">
+                        
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
+<!-- <i class="far fa-trash-alt"></i> -->
+<!-- <i class="far fa-smile"></i> -->
